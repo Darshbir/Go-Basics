@@ -1,0 +1,280 @@
+[
+  {
+    "day": "MONDAY",
+    "date": "05-Feb-24",
+    "meal": "BREAKFAST",
+    "items": [
+      "CHOICE OF EGG",
+      "CORNFLAKES",
+      "BREAD +JAM",
+      "POHA",
+      "GRAPES",
+      "TEA+ COFFEE",
+      "Milk"
+    ]
+  },
+  {
+    "day": "MONDAY",
+    "date": "05-Feb-24",
+    "meal": "LUNCH",
+    "items": [
+      "DISCO PAPAD",
+      "KADHI PAKODA",
+      "MADRASI ALOO",
+      "VEG KHICHDI",
+      "CHAPATI",
+      "PLAIN  RICE"
+    ]
+  },
+  {
+    "day": "MONDAY",
+    "date": "05-Feb-24",
+    "meal": "DINNER",
+    "items": [
+      "MIRCH KE TAPORE/ LAHSUN CHUTNEY",
+      "ALOO RASSA",
+      "DAL FRY",
+      "BATI/ CHAPATI",
+      "PLAIN  RICE",
+      "RASAM"
+    ]
+  },
+  {
+    "day": "TUESDAY",
+    "date": "06-Feb-24",
+    "meal": "BREAKFAST",
+    "items": [
+      "NO EGG",
+      "CORNFLAKES",
+      "BREAD +JAM",
+      "ALOO PARATHA",
+      "CURD",
+      "PICKEL",
+      "KINU",
+      "TEA+ COFFEE",
+      "Milk"
+    ]
+  },
+  {
+    "day": "TUESDAY",
+    "date": "06-Feb-24",
+    "meal": "LUNCH",
+    "items": [
+      "BHEL POORI",
+      "SWEET POTATO DRY",
+      "VEG KADHAI",
+      "DAL MAHARANI",
+      "PLAIN  RICE",
+      "SAMBAR",
+      "SWEET LASSI"
+    ]
+  },
+  {
+    "day": "TUESDAY",
+    "date": "06-Feb-24",
+    "meal": "DINNER",
+    "items": [
+      "LEMON + ONION",
+      "KHATTA MEETHA PUMPKIN",
+      "CHOLE  MASALA",
+      "HOT CHOCO MILK"
+    ]
+  },
+  {
+    "day": "WEDNESDAY",
+    "date": "07-Feb-24",
+    "meal": "BREAKFAST",
+    "items": [
+      "CHOICE OF EGG",
+      "CORNFLAKES",
+      "BREAD +JAM",
+      "BREAD PAKODA",
+      "TOMATO KETCHUP",
+      "SWEET DALIYA",
+      "TEA+ COFFEE",
+      "Milk"
+    ]
+  },
+  {
+    "day": "WEDNESDAY",
+    "date": "07-Feb-24",
+    "meal": "LUNCH",
+    "items": [
+      "CHAPATI",
+      "VEG POLAO",
+      "PINEAPPLE RAITA",
+      "CHOCO BURFI"
+    ]
+  },
+  {
+    "day": "WEDNESDAY",
+    "date": "07-Feb-24",
+    "meal": "DINNER",
+    "items": [
+      "ALOO CHANA CHAAT",
+      "TAWA VEG (NO KARELA)",
+      "DAL PALAK",
+      "CHAPATI"
+    ]
+  },
+  {
+    "day": "THURSDAY",
+    "date": "08-Feb-24",
+    "meal": "BREAKFAST",
+    "items": [
+      "CHOICE OF EGG",
+      "CORNFLAKES",
+      "BREAD +JAM",
+      "MUTTER KULCHA",
+      "KULCHA",
+      "CUT ONION LEMON",
+      "PAPAYA",
+      "TEA+ COFFEE",
+      "Milk"
+    ]
+  },
+  {
+    "day": "THURSDAY",
+    "date": "08-Feb-24",
+    "meal": "LUNCH",
+    "items": [
+      "GREEN SALAD",
+      "GAJAR MUTTER",
+      "GATTA CURRY",
+      "CHANNA DAL TADKA",
+      "CHAPATI",
+      "PLAIN  RICE",
+      "SAMBAR",
+      "RASNA"
+    ]
+  },
+  {
+    "day": "THURSDAY",
+    "date": "08-Feb-24",
+    "meal": "DINNER",
+    "items": [
+      "GREEN SALAD",
+      "VEG KORMA",
+      "BUTTER DAL TADKA",
+      "CHAPATI",
+      "GULAB JAMUN"
+    ]
+  },
+  {
+    "day": "FRIDAY",
+    "date": "09-Feb-24",
+    "meal": "BREAKFAST",
+    "items": [
+      "CHOICE OF EGG",
+      "CORNFLAKES",
+      "TEA+ COFFEE",
+      "Milk"
+    ]
+  },
+  {
+    "day": "FRIDAY",
+    "date": "09-Feb-24",
+    "meal": "LUNCH",
+    "items": [
+      "ONION SALAD",
+      "BAINGAN BHARTHA",
+      "RAJMA MASALA",
+      "DAL FRY",
+      "CHAPATI",
+      "PLAIN  RICE",
+      "BATHUA RAITA",
+      "SHIKANJI"
+    ]
+  },
+  {
+    "day": "FRIDAY",
+    "date": "09-Feb-24",
+    "meal": "DINNER",
+    "items": [
+      "MIX SALAD",
+      "VEG MANCHURIAN",
+      "BLACK MASOOR DAL",
+      "EGG FRIED RICE / VEG FRIED RICE",
+      "CHAPATI",
+      "BALIUSHAHI"
+    ]
+  },
+  {
+    "day": "SATURDAY",
+    "date": "10-Feb-24",
+    "meal": "BREAKFAST",
+    "items": [
+      "CHOICE OF EGG",
+      "CORNFLAKES",
+      "BREAD +JAM",
+      "SUJI UPMA",
+      "ADRAK CHUTNEY",
+      "TEA+ COFFEE",
+      "Milk"
+    ]
+  },
+  {
+    "day": "SATURDAY",
+    "date": "10-Feb-24",
+    "meal": "LUNCH",
+    "items": [
+      "GREEN CHUTNEY",
+      "FRENCH FRIES",
+      "RAGDA MUTTER",
+      "CURD /BUTTER",
+      "MIX VEG PARATHA",
+      "PLAIN  RICE",
+      "SAMBAR"
+    ]
+  },
+  {
+    "day": "SATURDAY",
+    "date": "10-Feb-24",
+    "meal": "DINNER",
+    "items": [
+      "GREEN SALAD",
+      "SARSOON KA SAAG"
+    ]
+  },
+  {
+    "day": "SUNDAY",
+    "date": "11-Feb-24",
+    "meal": "BREAKFAST",
+    "items": [
+      "CHOICE OF EGG",
+      "CORNFLAKES",
+      "BREAD +JAM",
+      "MASALA DOSA",
+      "SAMBHAR",
+      "GRAPES",
+      "TEA+ COFFEE",
+      "Milk"
+    ]
+  },
+  {
+    "day": "SUNDAY",
+    "date": "11-Feb-24",
+    "meal": "LUNCH",
+    "items": [
+      "ONION SALAD",
+      "PANEER LABABDAR",
+      "DHABA CHICKEN",
+      "NAAN / CHAPATI",
+      "BIRYANI RICE"
+    ]
+  },
+  {
+    "day": "SUNDAY",
+    "date": "11-Feb-24",
+    "meal": "DINNER",
+    "items": [
+      "PASTA SALAD",
+      "METHI MALAI MUTTER",
+      "DAL LASOONI",
+      "PLAIN RICE",
+      "CHAPATI",
+      "RASAM",
+      "HOT \u0026 SOUR SOUP"
+    ]
+  }
+]
