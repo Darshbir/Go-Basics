@@ -139,16 +139,16 @@ func main() {
 			menu = append(menu, NewMeal(days[i], date, meal_Opt[j], getMealItems(days[i], meal_Opt[j], xlsxFile)))
 		}
 	}
-	fmt.Print("Choose an action to perform:\n Type 1 to get the items in a particular meal\n Type 2 for number of items in a particular meal\n Type 3 to check for presence of an item in the meal \n Type 4 to generate corresponding JSON files with all the items\n")
+	fmt.Print("Choose an action to perform:\n Type 1 to get the items in a particular meal\n Type 2 for number of items in a particular meal\n Type 3 to check for presence of an item in the meal \n Type 4 to generate corresponding JSON files with all the items\n Type 5 to get details about a meal\n")
 	var input string
 	fmt.Scanln(&input)
 	num, err := strconv.Atoi(input)
 	if err != nil {
-		fmt.Println("Error: Please input an integer between 1 and 4")
+		fmt.Println("Error: Please input an integer between 1 and 5")
 		return
 	}
-	if num < 1 || num > 4 {
-		fmt.Println("Error: Please enter a number between 1 and 4.")
+	if num < 1 || num > 5 {
+		fmt.Println("Error: Please enter a number between 1 and 5.")
 		return
 	}
 	if num == 1 {
@@ -218,6 +218,46 @@ func main() {
 		err = saveMenuAsJSON(menu)
 		if err != nil {
 			fmt.Println(err)
+		}
+	} else if num == 5 {
+		fmt.Print("Please Type 1 for getting details about a particular meal\nPlease Type 2 for gettings details about all the meals in the week\n")
+		var this_str string
+		fmt.Scanln(&this_str)
+		number, err := strconv.Atoi(this_str)
+		if err != nil {
+			fmt.Println("Error: Please input an integer either 1 or 2")
+			return
+		}
+		if number < 1 || number > 2 {
+			fmt.Println("Error: Please enter a number either 1 or 2")
+			return
+		}
+		if number == 1 {
+			var day, meal_name string
+			fmt.Print("Please Enter Day: ")
+			fmt.Scanln(&day)
+			fmt.Print("Please Enter Name of The meal: ")
+			fmt.Scanln(&meal_name)
+			valid_Meal, err := Check_Valid_Meal(meal_name, meal_Opt[:])
+			if !valid_Meal {
+				fmt.Print(err)
+				return
+			}
+			valid_Day, err := Check_Valid_Day(day, days[:])
+			if !valid_Day {
+				fmt.Print(err)
+				return
+			}
+			for _, meal := range menu {
+				if strings.EqualFold(meal.Day, day) && strings.EqualFold(meal.Meal, meal_name) {
+					meal.PrintDetails()
+				}
+			}
+		} else if number == 2 {
+			fmt.Print("Printing details of all meals of the week\n")
+			for _, meal_name := range menu {
+				meal_name.PrintDetails()
+			}
 		}
 	}
 }
